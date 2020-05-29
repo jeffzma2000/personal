@@ -15,9 +15,9 @@ class App extends React.Component {
           <div className="App">
 
           {/* Set up the Router */}
-          <Route exact path="/" component={Home} />
-          <Route path="/projects" component={Projects} />
-          <Route path="/articles" component={Articles} />
+          <Route path={process.env.PUBLIC_URL + '/'} component={Home} />
+          <Route path={process.env.PUBLIC_URL + '/projects'} component={Projects} />
+          <Route path={process.env.PUBLIC_URL + '/articles'} component={Articles} />
           </div>
         </BrowserRouter>
       </div>
