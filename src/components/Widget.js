@@ -4,11 +4,6 @@ import Card from './Card';
 import $ from 'jquery';
 
 const urlForFeedToJson = feed => `https://api.rss2json.com/v1/api.json?rss_url=${feed}`;
-const keyCategories = ['javascript', 'front-end-development', 'responsive-web-design'];
-const contains = (keyCategories, categories) => {
-  const [category1, category2, category3] = keyCategories
-  return categories.indexOf(category1) > -1 || categories.indexOf(category2) > -1 || categories.indexOf(category3) > -1
-}
 
 class Widget extends Component {
   constructor(props) {

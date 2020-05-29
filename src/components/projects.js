@@ -30,7 +30,7 @@ class Project extends React.Component {
         return(
             <>
             <div id="container">
-                <img id="img" src={this.props.icon}/>
+                <img id="img" src={this.props.icon} alt="project"/>
                 <p className="title">{this.props.title}<br/>
                 <div className="small">{this.props.description}</div>
                 </p>

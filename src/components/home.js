@@ -2,8 +2,8 @@ import React from 'react'
 import Typist from 'react-typist'
 import Navigation from './navigation.js'
 import {SocialIcon} from 'react-social-icons'
-import {BsChevronDoubleDown, BsFolder} from 'react-icons/bs'
-import { Link, animateScroll as scroll } from "react-scroll";
+import {BsChevronDoubleDown} from 'react-icons/bs'
+import { Link } from "react-scroll";
 
 
 class Home extends React.Component {
@@ -58,7 +58,7 @@ class Home extends React.Component {
                     <article className="w-25"></article>
                     </div>
                     
-                    <img src="jmlogo.png" className="pr-2"/><br/>
+                    <img src="jmlogo.png" className="pr-2" alt="mylogo"/><br/>
                     <SocialIcon url="https://instagram.com/j.eff.rey" style={{ height: 25, width: 25 }} target="_blank"/> &nbsp;
                     <SocialIcon url="https://linkedin.com/in/jeffzma2000" style={{ height: 25, width: 25 }} /> &nbsp;
                     <SocialIcon url="https://medium.com/@jeffreyma" style={{ height: 25, width: 25 }} /> &nbsp;
@@ -143,7 +143,7 @@ class Home extends React.Component {
                     <div className="container">
                         <div className="heading sectionHeader pb-5">What I'm currently reading</div>
                         <a href="https://www.amazon.com/Zen-Art-Motorcycle-Maintenance-Inquiry/dp/0060839872/ref=sr_1_2?crid=1VWW84HV1AQWC&dchild=1&keywords=zen+and+the+art+of+motorcycle+maintenance&qid=1590765800&sprefix=zen+and+the+ar%2Caps%2C180&sr=8-2">
-                            <img src="/book.jpg" className="pb-4"/>
+                            <img src="/book.jpg" className="pb-4" alt="book"/>
                         </a>
                     </div>
 
