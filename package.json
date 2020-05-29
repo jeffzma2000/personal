@@ -1,8 +1,8 @@
 {
+  "homepage": "http://jeffzma2000.github.io/personal",
   "name": "learnreac",
   "version": "0.2.0",
   "private": true,
-  "homepage": "http://jeffzma2000.github.io/personal",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
