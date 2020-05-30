@@ -11,13 +11,13 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <BrowserRouter basename={`${process.env.PUBLIC_URL}/`}>
+        <BrowserRouter>
           <div className="App">
 
           {/* Set up the Router */}
-          <Route path={process.env.PUBLIC_URL + '/'} component={Home} />
-          <Route path={process.env.PUBLIC_URL + '/projects'} component={Projects} />
-          <Route path={process.env.PUBLIC_URL + '/articles'} component={Articles} />
+          <Route exact path='/' component={Home} />
+          <Route path='/projects' component={Projects} />
+          <Route path='/articles' component={Articles} />
           </div>
         </BrowserRouter>
       </div>
