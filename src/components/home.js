@@ -61,35 +61,36 @@ class Home extends React.Component {
                     <LazyLoad>
                     <img src="jmlogo.png" className="pr-2" alt="mylogo"/><br/>
                     </LazyLoad>
+                    <div className="pb-5">
                     <SocialIcon url="https://instagram.com/j.eff.rey" style={{ height: 25, width: 25 }} target="_blank"/> &nbsp;
                     <SocialIcon url="https://linkedin.com/in/jeffzma2000" style={{ height: 25, width: 25 }} /> &nbsp;
                     <SocialIcon url="https://medium.com/@jeffreyma" style={{ height: 25, width: 25 }} /> &nbsp;
-                    
+                    </div>
                 </div>
                 <div id="section3" className="section">
                     <div className="container text-white">
                         <div className="heading sectionHeader">Education</div>
                         <div className="row p-5">
-                            <div className="text-left col-3">
+                            <div className="text-left col-sm-3 pb-3">
                                 <strong>Yale University</strong> <br/>
                                 September 2018 - May 2022
                             </div>
-                            <div className="text-left col-7 ml-5 border-left">
+                            <div className="text-left col-sm-7 ml-5 border-left">
                                 <strong>B.S. Computer Science and Mathematics</strong><br/>
                                 Relevant coursework includes data structures, systems programming, algorithms, linear algebra, analysis, discrete mathematics, theory of statistics, and probability theory.
                             </div>
-                            <div className="col"></div>
+                            <div className="col-sm"></div>
                         </div>
                         <div className="row p-5">
-                            <div className="text-left col-3">
+                            <div className="text-left col-sm-3 pb-3">
                                 <strong>Currently self-learning</strong> <br/>
                                 Present
                             </div>
-                            <div className="text-left col-7 ml-5 border-left">
+                            <div className="text-left col-sm-7 ml-5 border-left">
                                 <strong>Various programming languages and frameworks</strong><br/>
                                 React, Haskell, and Swift
                             </div>
-                            <div className="col"></div>
+                            <div className="col-sm"></div>
                         </div>
                     </div>
                 </div>
@@ -97,11 +98,11 @@ class Home extends React.Component {
                     <div className="container">
                         <div className="heading sectionHeader">Professional Experiences</div>
                         <div className="row p-5">
-                            <div className="text-left col-3">
+                            <div className="text-left col-sm-3 pb-3">
                                 <strong>dcyphr</strong> <br/>
                                 November 2019 - Present
                             </div>
-                            <div className="text-left col-7 ml-5 border-left">
+                            <div className="text-left col-sm-7 ml-5 border-left">
                                 <strong>Founder, CEO, CTO</strong><br/>
                                 Founded a startup to make scientific literature more readable and accessible. Built a web application in Flask that 
                                 allows users to browse, request, and upload summaries of scientific articles. Partnered with students and scientists across
@@ -109,27 +110,27 @@ class Home extends React.Component {
                                 develop new features for the web application, and expand dcyphr through strategic marketing and partnerships. Currently accepting
                                 SAFE investments and grants.
                             </div>
-                            <div className="col"></div>
+                            <div className="col-sm"></div>
                         </div>
                         <div className="row p-5">
-                            <div className="text-left col-3">
+                            <div className="text-left col-sm-3 pb-3">
                                 <strong>Cognitive &#x26; Neural Computation Lab at Yale</strong> <br/>
                                 September 2019 - Present
                             </div>
-                            <div className="text-left col-7 ml-5 border-left">
+                            <div className="text-left col-sm-7 ml-5 border-left">
                                 <strong>Computer Programmer</strong><br/>
                                 Scripted and rendered physical scenes using Python and blender. Generated scenes were used for
                                 behavioral studies and modeling human event perception. Worked in Julia to model event perception and
                                 program neural networks.
                             </div>
-                            <div className="col"></div>
+                            <div className="col-sm"></div>
                         </div>
                         <div className="row p-5">
-                            <div className="text-left col-3">
+                            <div className="text-left col-sm-3 pb-3">
                                 <strong>Regeneron Pharmaceuticals</strong> <br/>
                                 May 2017 - September 2018
                             </div>
-                            <div className="text-left col-7 ml-5 border-left">
+                            <div className="text-left col-sm-7 ml-5 border-left">
                                 <strong>Research assistant</strong><br/>
                                 Designed and executed research experiments including: <br/> &nbsp;&nbsp;1. &nbsp;Attempt to transform astrocytes into neurons with 
                                 a viral vector. (2018) <br/>&nbsp;&nbsp;2. &nbsp;Demonstrate functional protection of hypercholesterolemia through an LDLR variant. (2017)
@@ -137,7 +138,7 @@ class Home extends React.Component {
                                 Developed skills in experimental design, scientific communication, PCR, Western blot, Northern blot,
                                 co-immunoprecipitation, and immunohistochemistry.
                             </div>
-                            <div className="col"></div>
+                            <div className="col-sm"></div>
                         </div>
                     </div>
                 </div>

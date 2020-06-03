@@ -1,6 +1,7 @@
 #background{
   background-image: url("/home.png");
   background-size: cover;
+  background-position-x: center;
 }
 .App {
   text-align: center;

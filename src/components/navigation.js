@@ -5,12 +5,15 @@ import Nav from 'react-bootstrap/Nav'
 function Navigation(props) {
     return(
       <Navbar variant={props.bg} expand="lg">
-        <Nav>
-          <Nav.Link href="/">Home</Nav.Link>
-          <Nav.Link href="/projects">Portfolio</Nav.Link>
-          <Nav.Link href="/articles">Blog</Nav.Link>
-          <Nav.Link href="Resume_A.pdf" download>Resume</Nav.Link>
-        </Nav>
+        <Navbar.Toggle aria-controls="basic-navbar-nav"/>
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav>
+            <Nav.Link href="/">Home</Nav.Link>
+            <Nav.Link href="/projects">Portfolio</Nav.Link>
+            <Nav.Link href="/articles">Blog</Nav.Link>
+            <Nav.Link href="Resume_A.pdf" download>Resume</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
       </Navbar>
   
     )
