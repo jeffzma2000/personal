@@ -10,8 +10,8 @@ function Navigation(props) {
           <Nav>
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/projects">Portfolio</Nav.Link>
-            <Nav.Link href="/articles">Blog</Nav.Link>
-            <Nav.Link href="Resume_A.pdf" download>Resume</Nav.Link>
+            {/* <Nav.Link href="/articles">Blog</Nav.Link> */}
+            <Nav.Link href="JeffreyMa_Resume.pdf" download>Resume</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
