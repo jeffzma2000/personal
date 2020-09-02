@@ -6,6 +6,20 @@
 .App {
   text-align: center;
 }
+.landing {
+  width:100%;
+  overflow:hidden;
+  position: relative;
+}
+.picture {
+  position: absolute;
+  display: block;
+  margin: auto;
+  z-index: -1;
+}
+.cover {
+  max-width: 100%;
+}
 .section{
   min-height: 80vh
 }
@@ -141,6 +155,10 @@
 @media only screen and (max-width: 600px) {
   .title {
     top: 0vh;
+  }
+  .cover {
+    min-height: 100vh !important;
+    max-width: 200% !important;
   }
   #container:hover .title{
     top: 5vh;

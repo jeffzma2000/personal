@@ -4,7 +4,7 @@ import Nav from 'react-bootstrap/Nav'
 
 function Navigation(props) {
     return(
-      <Navbar variant={props.bg} expand="lg">
+      <Navbar variant={props.bg} expand="md">
         <Navbar.Toggle aria-controls="basic-navbar-nav"/>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav>

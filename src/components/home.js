@@ -16,35 +16,41 @@ class Home extends React.Component {
     render(){
         return(
             <div className="lato">
-            <div id="background">
-                <Navigation bg="dark"/>
-                <div id="home">
-                    <Typist
-                    startDelay={500}
-                    className="heading"
-                    onTypingDone={()=>this.setState({renderMsg: true})}
-                    cursor={{ hideWhenDone: true, hideWhenDoneDelay: 0}}>
-                        Hi, I'm Jeffrey
-                    </Typist>
-                    <div className="content pb-5">
-                        {this.state.renderMsg ? (
-                            <Typist
-                            startDelay={500}
-                            className="content"
-                            onTypingDone={()=>this.setState({renderMsg2: true})}>
-                                Welcome to my interactive resume!
-                            </Typist>
+                <div className="landing">
+                    <picture className="picture">
+                        <source srcset="background.webp" type="image/webp" className="cover"/>
+                        <source srcset="background.jp2" type="image/jp2" className="cover"/>
+                        <img src='home.png' className="cover"/>
+                    </picture>
+                
+                    <Navigation bg="dark"/>
+
+                    <div id="home">
+                        <Typist
+                        startDelay={500}
+                        className="heading"
+                        onTypingDone={()=>this.setState({renderMsg: true})}
+                        cursor={{ hideWhenDone: true, hideWhenDoneDelay: 0}}>
+                            Hi, I'm Jeffrey
+                        </Typist>
+                        <div className="content pb-5">
+                            {this.state.renderMsg ? (
+                                <Typist
+                                startDelay={500}
+                                className="content"
+                                onTypingDone={()=>this.setState({renderMsg2: true})}>
+                                    Welcome to my interactive resume!
+                                </Typist>
+                            ) : null}
+                        </div>
+                        
+                        {this.state.renderMsg2 ? (
+                            <div className="downlink ">
+                            <Link to="section2" spy={true} smooth={true} className="pt-5 mt-5 text-white"><BsChevronDoubleDown size="5vh"/></Link>
+                            </div>
                         ) : null}
                     </div>
-                    
-                    {this.state.renderMsg2 ? (
-                        <div className="downlink ">
-                        <Link to="section2" spy={true} smooth={true} className="pt-5 mt-5 text-white"><BsChevronDoubleDown size="5vh"/></Link>
-                        </div>
-                    ) : null}
-                    
                 </div>
-            </div>
                 <div id="section2" className="container section">
                     <div className="heading sectionHeader">Profile</div>
                     <blockquote>“If you never did you should. These things are fun and fun is good.” – Dr. Seuss</blockquote>

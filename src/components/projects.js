@@ -51,7 +51,7 @@ class Project extends React.Component {
                             <div>
                                 {this.props.description}
                             </div><br/>
-                            <Button href={this.props.link} variant="outline-light" className='mb-3'>
+                            <Button href={this.props.link} target="_blank" variant="outline-light" className='mb-3'>
                                 <div>VISIT</div>
                             </Button>
                             <div >{this.props.skills}</div>
